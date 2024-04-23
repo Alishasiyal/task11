@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        height: 100px;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      aside {
+        width: 150px;
+        height: 800px;
+        background-color: maroon;
+      }
+      .left {
+        width: 100px;
+        text-align: center;
+      }
+      .right {
+        background-color: pink;
+        width: 300px;
+      }
+      nav div {
+        height: 50px;
+      }
+      .parent {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <img src="https://picsum.photos/50" alt="" />
+      </div>
+      <div class="right">
+        <ul class="parent">
+          <li class="child"><a href="">Home</a></li>
+
+          <li class="child"><a href="">About</a></li>
+
+          <li class="child"><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <aside></aside>
+  </body>
+</html>
